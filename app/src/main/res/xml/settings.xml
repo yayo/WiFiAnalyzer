@@ -1,6 +1,6 @@
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2015 - 2021 VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2015 - 2021 YAYO Software Development <yayooo@gmail.com>
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -150,7 +150,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory>
-        <com.vrem.wifianalyzer.settings.CountryPreference
+        <com.yayooo.wifianalyzer.settings.CountryPreference
             app:icon="@drawable/ic_location_on"
             app:key="@string/country_code_key"
             app:persistent="true"
@@ -158,7 +158,7 @@
             app:useSimpleSummaryProvider="true"
             app:title="@string/country_code_title"/>
 
-        <com.vrem.wifianalyzer.settings.LanguagePreference
+        <com.yayooo.wifianalyzer.settings.LanguagePreference
             app:icon="@drawable/ic_language"
             app:key="@string/language_key"
             app:persistent="true"

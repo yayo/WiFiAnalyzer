@@ -1,0 +1,54 @@
+/*
+ * WiFiAnalyzer
+ * Copyright (C) 2015 - 2021 YAYO Software Development <yayooo@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+package com.yayooo.wifianalyzer.wifi.predicate
+
+import com.yayooo.wifianalyzer.wifi.band.WiFiBand
+import com.yayooo.wifianalyzer.wifi.model.WiFiDetail
+import com.yayooo.wifianalyzer.wifi.model.WiFiIdentifier
+import com.yayooo.wifianalyzer.wifi.model.WiFiSignal
+import com.yayooo.wifianalyzer.wifi.model.WiFiWidth
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class WiFiBandPredicateTest {
+    @Test
+    fun testWiFiBandPredicateWith2GHzFrequency() {
+        // setup
+        val wiFiDetail = makeWiFiDetail(2455)
+        // execute & validate
+        assertTrue(WiFiBand.GHZ2.predicate()(wiFiDetail))
+        assertFalse(WiFiBand.GHZ5.predicate()(wiFiDetail))
+    }
+
+    @Test
+    fun testWiFiBandPredicateWith5GHzFrequency() {
+        // setup
+        val wiFiDetail = makeWiFiDetail(5455)
+        // execute & validate
+        assertFalse(WiFiBand.GHZ2.predicate()(wiFiDetail))
+        assertTrue(WiFiBand.GHZ5.predicate()(wiFiDetail))
+    }
+
+    private fun makeWiFiDetail(frequency: Int): WiFiDetail =
+            WiFiDetail(
+                    WiFiIdentifier("ssid", "bssid"),
+                    "wpa",
+                    WiFiSignal(frequency, frequency, WiFiWidth.MHZ_20, 1, true))
+
+}

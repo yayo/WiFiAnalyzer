@@ -4,10 +4,9 @@
 - WiFi Analyzer rated as one of the 15 most useful apps for Android by [Android Authority](https://www.androidauthority.com/most-useful-apps-for-android-603100/amp)
 - [Gizmodo](https://gizmodo.com/the-best-wifi-analyzer-apps-to-troubleshoot-your-networ-1843957301) rates WiFi Analyzer one of The Best Apps for Fixing Your WiFi
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer)
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/repository/browse/?fdid=com.vrem.wifianalyzer)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.yayooo.wifianalyzer)
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/repository/browse/?fdid=com.yayooo.wifianalyzer)
 [<img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-underground-app-us-white.png" alt="Get it at Amazon Store" height="70">
-](https://www.amazon.com/VREM-Software-Development-WiFiAnalyzer-open-source/dp/B06XZT7RYD)
 
 This is the official repository of WiFi Analyzer.
 
@@ -62,17 +61,17 @@ This is the official repository of WiFi Analyzer.
 * [How is distance calculated to Access Point](https://en.wikipedia.org/wiki/Free-space_path_loss)
 
 ## FAQ
-* [Android Wi-Fi scanning throttling](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/Android-WiFi-scanning-throttling)
-* [Location Service Permission Requirements](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/Location-Service-Permission-Requirements)
-* [WiFi Analyzer on secondary user accounts](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/WiFi-Analyzer-on-secondary-user-accounts)
-* [How channel graph displays 20/40/80/160 MHz channel width?](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues/64)
-* [How to use SSID filter?](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues/125)
-* [WiFi Analyzer equivalent on iOS](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues/69)
+* [Android Wi-Fi scanning throttling](https://github.com/yayo/WiFiAnalyzer/wiki/Android-WiFi-scanning-throttling)
+* [Location Service Permission Requirements](https://github.com/yayo/WiFiAnalyzer/wiki/Location-Service-Permission-Requirements)
+* [WiFi Analyzer on secondary user accounts](https://github.com/yayo/WiFiAnalyzer/wiki/WiFi-Analyzer-on-secondary-user-accounts)
+* [How channel graph displays 20/40/80/160 MHz channel width?](https://github.com/yayo/WiFiAnalyzer/issues/64)
+* [How to use SSID filter?](https://github.com/yayo/WiFiAnalyzer/issues/125)
+* [WiFi Analyzer equivalent on iOS](https://github.com/yayo/WiFiAnalyzer/issues/69)
 
 ## Feedback
-* Bug reports can be submitted [here](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues).
-* To learn how to submit a bug [click here](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/Feedback).
-* [Discussions](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/discussions)
+* Bug reports can be submitted [here](https://github.com/yayo/WiFiAnalyzer/issues).
+* To learn how to submit a bug [click here](https://github.com/yayo/WiFiAnalyzer/wiki/Feedback).
+* [Discussions](https://github.com/yayo/WiFiAnalyzer/discussions)
 * If you do not have GitHub account, please use [google groups](https://groups.google.com/forum/#!forum/wifi-analyzer-open-source) to discuss application features.
 
 ## License
@@ -92,21 +91,13 @@ WiFi Analyzer is licensed under the GNU General Public License v3.0 (GPLv3).
 
 ## WiFi Analyzer Build
 
-[![Workflow Status](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/workflows/Android%20CI/badge.svg)](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/actions?query=workflow%3A%22Android+CI%22)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/203eaa0583694bcca6554190513179ba)](https://www.codacy.com/gh/VREMSoftwareDevelopment/WiFiAnalyzer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VREMSoftwareDevelopment/WiFiAnalyzer&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/VREMSoftwareDevelopment/WiFiAnalyzer/branch/master/graph/badge.svg)](https://codecov.io/gh/VREMSoftwareDevelopment/WiFiAnalyzer)
+[![Workflow Status](https://github.com/yayo/WiFiAnalyzer/workflows/Android%20CI/badge.svg)](https://github.com/yayo/WiFiAnalyzer/actions?query=workflow%3A%22Android+CI%22)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/vremsoftwaredevelopment/wifianalyzer/badge.svg)](https://snyk.io/test/github/vremsoftwaredevelopment/wifianalyzer)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVREMSoftwareDevelopment%2FWiFiAnalyzer.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVREMSoftwareDevelopment%2FWiFiAnalyzer?ref=badge_shield)
-
-[![Issues](https://img.shields.io/github/issues/VREMSoftwareDevelopment/WiFiAnalyzer.svg)](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues)
-[![Star](https://img.shields.io/github/stars/VREMSoftwareDevelopment/WiFiAnalyzer.svg)](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/stargazers)
-[![Fork](https://img.shields.io/github/forks/VREMSoftwareDevelopment/WiFiAnalyzer.svg)](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/network)
 
 ## Contribute
 * Feel free to fork the project and submit your changes.
-* To learn how to submit a pull request [click here](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/Pull-Request).
-* We want to express our gratitude to all [people](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/graphs/contributors) for their contributions, such as: patches, bug solving, updates and etc. 
+* To learn how to submit a pull request [click here](https://github.com/yayo/WiFiAnalyzer/wiki/Pull-Request).
+* We want to express our gratitude to all [people](https://github.com/yayo/WiFiAnalyzer/graphs/contributors) for their contributions, such as: patches, bug solving, updates and etc. 
 * If you would like to contribute financially to the project please feel free to send any amount through paypal.
 	* [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=62PA6HJ3BZL3E)
 	* Thanks to every one who already donated so far!

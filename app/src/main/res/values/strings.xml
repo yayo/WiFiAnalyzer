@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2015 - 2021 VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2015 - 2021 YAYO Software Development <yayooo@gmail.com>
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -21,9 +21,9 @@
     <!-- application start -->
     <string name="app_name" translatable="false">"WiFiAnalyzer"</string>
     <string name="app_full_name" translatable="false">"WiFiAnalyzer (open-source)"</string>
-    <string name="app_company_name" translatable="false">"VREM Software Development"</string>
+    <string name="app_company_name" translatable="false">"YAYO Software Development"</string>
     <string name="app_copyright">"Copyright \u00A9 2015 \u002D"</string>
-    <string name="app_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer"</string>
+    <string name="app_url" translatable="false">"https://yayo.github.io/WiFiAnalyzer"</string>
     <!-- application end -->
 
     <string name="navigation_drawer_open">"Open navigation drawer"</string>
@@ -47,7 +47,7 @@
 
     <string name="no_data">"No Data"</string>
     <string name="no_data_msg">"Please visit frequently ask questions section on our website."</string>
-    <string name="no_data_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#faq"</string>
+    <string name="no_data_url" translatable="false">"https://yayo.github.io/WiFiAnalyzer/#faq"</string>
     <string name="permission_msg">"As of Android Marshmallow, location permissions are required to perform a Wi-Fi scan. You will be prompted to enable location services/permissions. Since this app does not require internet access, you can be confident that this app cannot transmit your location!"</string>
     <string name="location_msg">"This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage."</string>
     <string name="throttling_msg">"Android 9 introduced Wi-Fi scan throttling. Android 10 has a new developer option to toggle the throttling off under (Settings > Developer Options > Networking > Wi-Fi scan throttling)."</string>
@@ -172,11 +172,11 @@
     <string name="about_library_material" translatable="false">"Material Design Icons"</string>
     <string name="about_library_material_url" translatable="false">"https://design.google.com/icons"</string>
     <string name="about_usage_tips" translatable="false">"Usage Tips:"</string>
-    <string name="about_usage_tips_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#usage-tips"</string>
+    <string name="about_usage_tips_url" translatable="false">"https://yayo.github.io/WiFiAnalyzer/#usage-tips"</string>
     <string name="about_how_to" translatable="false">"How-to:"</string>
-    <string name="about_how_to_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#how-to"</string>
+    <string name="about_how_to_url" translatable="false">"https://yayo.github.io/WiFiAnalyzer/#how-to"</string>
     <string name="about_faq" translatable="false">"FAQ:"</string>
-    <string name="about_faq_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#faq"</string>
+    <string name="about_faq_url" translatable="false">"https://yayo.github.io/WiFiAnalyzer/#faq"</string>
     <string name="about_contributor_title">"Contributors"</string>
     <string name="about_write_review">"Write a Review"</string>
     <!-- about end -->

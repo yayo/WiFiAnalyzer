@@ -3,7 +3,7 @@ name: Bug report
 about: 'Create a report to help us fix the issue'
 ---
 
-[How to report a bug](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/wiki/Feedback)
+[How to report a bug](https://github.com/yayo/WiFiAnalyzer/wiki/Feedback)
 
 **Please search issues (open and closed) to see the issues has already been reported.**
 
